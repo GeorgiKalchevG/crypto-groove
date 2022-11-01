@@ -1,11 +1,8 @@
 import React from 'react'
+import { NextPage } from 'next'
 
-const MintPage = () => {
-  return (
-    <div>
-      Minting a NFT
-    </div>
-  )
+const MintPage: NextPage = () => {
+  return <div>Minting a NFT</div>
 }
 
 export default MintPage

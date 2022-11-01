@@ -14,3 +14,6 @@ NFTOKENs per month.
 5. Generated NFTOKENs can be used as a collateral to generate USD pegged stable coin
 (nUSD)
 6. NFTOKENs and nUSD can be traded via automated market maker
+
+
+App can be found here https://crypto-groove.vercel.app
