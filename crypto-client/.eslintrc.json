@@ -3,8 +3,30 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint"],
-  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          [
+            "@",
+            "./src/"
+          ]
+        ],
+        "extensions": [
+          ".ts",
+          ".js",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "rules": {
     "@typescript-eslint/consistent-type-imports": "warn"
   }
